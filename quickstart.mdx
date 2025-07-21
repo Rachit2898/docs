@@ -17,13 +17,17 @@ Include the following header in **every** request.
 
 ### ✅ Example: Get All Users
 
-```bash
-# Request
-curl -X GET https://api.uponai.com/v1/users \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json"
+<RequestExample>
 
-# Response
+```bash
+curl -X GET https://api.uponai.com/v1/users \
+-H "Authorization: Bearer YOUR_API_KEY" \
+-H "Content-Type: application/json"
+```
+
+</RequestExample>
+
+```json
 [
   {
     "id": "user_123",
